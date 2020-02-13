@@ -11,24 +11,16 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "articles_part1.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "english_grammar.css"], "outOfDate":[]};
 </script>
   
-  <link rel="canonical" href="http://wikeduk.com/articles_part1.html"/>
-  <title>articles_part1</title>
+  <link rel="canonical" href="http://wikeduk.com/english_grammar.html"/>
+  <title>english_grammar</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=4022494155"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4202885282"/>
-  <link rel="stylesheet" type="text/css" href="css/articles_part1.css?crc=280910035" id="pagesheet"/>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   var __adobewebfontsappname__ = "muse";
-</script>
-  <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/ubuntu:n7:default.js" type="text/javascript"></script>
-    <!--HTML Widget code-->
-  <style type="text/css">#u358.size_fluid_width_height iframe { position:absolute; left:0; top:0; }</style>
- </head>
+  <link rel="stylesheet" type="text/css" href="css/english_grammar.css?crc=51511175" id="pagesheet"/>
+   </head>
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
@@ -39,20 +31,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="browser_width colelem" id="u339-bw">
      <div id="u339"><!-- simple frame --></div>
     </div>
-    <div class="browser_width colelem" id="u355-4-bw">
-     <div class="clearfix" id="u355-4"><!-- content -->
-      <p>Practical English Grammar-Part1</p>
-     </div>
+    <div class="browser_width colelem" id="u543-bw">
+     <div class="museBGSize" id="u543"><!-- simple frame --></div>
     </div>
-    <div class="browser_width colelem" id="u358-bw">
-     <div class="size_browser_width" id="u358"><!-- custom html -->
-      
-<iframe class="actAsDiv" style="width:100%;height:100%;" src="//www.youtube.com/embed/TRmVgvkPSNk?autoplay=0&loop=0&showinfo=0&theme=dark&color=red&controls=1&modestbranding=0&start=0&fs=1&iv_load_policy=3&wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
-
-     </div>
+    <div class="browser_width colelem" id="u551-bw">
+     <a class="nonblock nontext museBGSize" id="u551" href="articles_part1.html"><!-- simple frame --></a>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="361" data-content-above-spacer="361" data-content-below-spacer="50"></div>
+   <div class="verticalspacer" data-offset-top="525" data-content-above-spacer="525" data-content-below-spacer="50"></div>
    <div class="grpelem" id="u342"><!-- custom html -->
     wikeduk &copy; all rights reserved-2020
    </div>
@@ -68,7 +54,7 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
