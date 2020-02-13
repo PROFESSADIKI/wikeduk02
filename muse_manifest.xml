@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581619680901">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581620887243">
   <folder name="assets">
     <file name="1--guide_mes-apprentissages-en-français_français_6ap.pdf" crc="423287194" seo="true" mt="1576144363000"/>
     <file name="p1.mp3" crc="154121582" seo="true" mt="1581618136000"/>
@@ -12,7 +12,7 @@
     <file name="english_grammar.css" crc="277360538" ref="english_grammar"/>
     <file name="iefonts_english_grammar.css" crc="59453396" ref="english_grammar"/>
     <file name="ielts.css" crc="275508247" ref="ielts"/>
-    <file name="history-of-a-queen.css" crc="3782128725" ref="history-of-a-queen"/>
+    <file name="history-of-a-queen.css" crc="60568380" ref="history-of-a-queen"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index:articles_part1:phone>articles_part1:english_grammar:articles_part2:phone>english_grammar:phone>articles_part2:ielts:history-of-a-queen"/>
@@ -71,5 +71,5 @@
   <file name="english_grammar.html" crc="4287725026" seo="true" mt="1581617034054" redirect="true"/>
   <file name="articles_part2.html" crc="309021866" seo="true" mt="1581616941960" redirect="true"/>
   <file name="ielts.html" crc="3800403920" seo="true" mt="1581619062041" redirect="true"/>
-  <file name="history-of-a-queen.html" crc="105455960" seo="true" mt="1581619633051" redirect="true"/>
+  <file name="history-of-a-queen.html" crc="110403836" seo="true" mt="1581620867376" redirect="true"/>
 </manifest>
