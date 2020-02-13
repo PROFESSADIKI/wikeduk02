@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581620887243">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581621437110">
   <folder name="assets">
     <file name="1--guide_mes-apprentissages-en-français_français_6ap.pdf" crc="423287194" seo="true" mt="1576144363000"/>
     <file name="p1.mp3" crc="154121582" seo="true" mt="1581618136000"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="4022494155"/>
-    <file name="index.css" crc="416396294" ref="index"/>
+    <file name="index.css" crc="169568813" ref="index"/>
     <file name="master_a-master.css" crc="329693250" ref="articles_part1:index:articles_part2:english_grammar:ielts:history-of-a-queen"/>
     <file name="articles_part1.css" crc="108520235" ref="articles_part1"/>
     <file name="articles_part2.css" crc="385122456" ref="articles_part2"/>
@@ -66,7 +66,7 @@
     <file name="english_grammar.html" crc="4151286573" seo="true" mt="1581617035001" redirect="true"/>
     <file name="articles_part2.html" crc="3856874812" seo="true" mt="1581616997025" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3918739463" seo="true" mt="1581618909659" redirect="true"/>
+  <file name="index.html" crc="4256104975" seo="true" mt="1581621424517" redirect="true"/>
   <file name="articles_part1.html" crc="263440117" seo="true" mt="1581610683115" redirect="true"/>
   <file name="english_grammar.html" crc="4287725026" seo="true" mt="1581617034054" redirect="true"/>
   <file name="articles_part2.html" crc="309021866" seo="true" mt="1581616941960" redirect="true"/>
