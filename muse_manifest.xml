@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581619434582">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581619680901">
   <folder name="assets">
     <file name="1--guide_mes-apprentissages-en-français_français_6ap.pdf" crc="423287194" seo="true" mt="1576144363000"/>
     <file name="p1.mp3" crc="154121582" seo="true" mt="1581618136000"/>
@@ -24,8 +24,9 @@
     <file name="require.js" crc="4157109226" ref="phone>index:index:articles_part1:phone>articles_part1:english_grammar:articles_part2:phone>english_grammar:phone>articles_part2:ielts:history-of-a-queen"/>
   </folder>
   <folder name="images">
-    <file name="get online free courses.jpg" crc="180943920" ref="index:phone>index">
+    <file name="get online free courses.jpg" crc="180943920" ref="index:phone>index:history-of-a-queen">
       <caption webpage="index" alt=""/>
+      <caption webpage="history-of-a-queen" alt=""/>
     </file>
     <file name="practical english grammar1.jpg" crc="53987608" ref="phone>english_grammar">
       <caption webpage="index" alt=""/>
@@ -70,5 +71,5 @@
   <file name="english_grammar.html" crc="4287725026" seo="true" mt="1581617034054" redirect="true"/>
   <file name="articles_part2.html" crc="309021866" seo="true" mt="1581616941960" redirect="true"/>
   <file name="ielts.html" crc="3800403920" seo="true" mt="1581619062041" redirect="true"/>
-  <file name="history-of-a-queen.html" crc="4039170592" seo="true" mt="1581619433867" redirect="true"/>
+  <file name="history-of-a-queen.html" crc="105455960" seo="true" mt="1581619633051" redirect="true"/>
 </manifest>
