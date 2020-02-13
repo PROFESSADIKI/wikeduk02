@@ -1,20 +1,28 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581602437438">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581604091979">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4223245338" ref="index"/>
+    <file name="index.css" crc="242270210" ref="index"/>
+    <file name="master_a-master.css" crc="329693250" ref="articles_part1:index"/>
+    <file name="articles_part1.css" crc="3957488123" ref="articles_part1"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
-    <file name="museutils.js" crc="3803043152" ref="phone>index:index"/>
-    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
-    <file name="museconfig.js" crc="380897831" ref="phone>index:index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index:articles_part1"/>
+    <file name="museutils.js" crc="3803043152" ref="phone>index:index:articles_part1"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index:articles_part1"/>
+    <file name="museconfig.js" crc="380897831" ref="phone>index:index:articles_part1"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="phone>index:index"/>
     <file name="jquery.watch.js" crc="99325471" ref="phone>index"/>
-    <file name="require.js" crc="4157109226" ref="phone>index:index"/>
+    <file name="require.js" crc="4157109226" ref="phone>index:index:articles_part1"/>
   </folder>
   <folder name="images">
     <file name="get online free courses-u175-fr.jpg" crc="94389787" ref="phone>index"/>
     <file name="get online free courses.jpg" crc="180943920" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="practical english grammar1.jpg" crc="458943352" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="practical english grammar.jpg" crc="300306860" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
@@ -24,5 +32,6 @@
     </folder>
     <file name="index.html" crc="4211162651" seo="true" mt="1581601590312" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3834264488" seo="true" mt="1581602434414" redirect="true"/>
+  <file name="index.html" crc="495213993" seo="true" mt="1581604091687" redirect="true"/>
+  <file name="articles_part1.html" crc="4093638123" seo="true" mt="1581604004211" redirect="true"/>
 </manifest>
