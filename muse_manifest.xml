@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581601622855">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581602251554">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="465496736" ref="index"/>
+    <file name="index.css" crc="4223245338" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
@@ -24,5 +24,5 @@
     </folder>
     <file name="index.html" crc="4211162651" seo="true" mt="1581601590312" redirect="true"/>
   </folder>
-  <file name="index.html" crc="4220351494" seo="true" mt="1581601354709" redirect="true"/>
+  <file name="index.html" crc="260784025" seo="true" mt="1581602233416" redirect="true"/>
 </manifest>
