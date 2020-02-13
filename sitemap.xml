@@ -8,13 +8,6 @@
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://wikeduk.com/phone/index.html"/>
   </url>
   <url>
-    <loc>http://wikeduk.com/articles_part1.html</loc>
-    <lastmod>2020-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://wikeduk.com/phone/articles_part1.html"/>
-  </url>
-  <url>
     <loc>http://wikeduk.com/english_grammar.html</loc>
     <lastmod>2020-02-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -27,6 +20,31 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://wikeduk.com/phone/articles_part2.html"/>
+  </url>
+  <url>
+    <loc>http://wikeduk.com/articles_part1.html</loc>
+    <lastmod>2020-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://wikeduk.com/phone/articles_part1.html"/>
+  </url>
+  <url>
+    <loc>http://wikeduk.com/ielts.html</loc>
+    <lastmod>2020-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://wikeduk.com/history-of-a-queen.html</loc>
+    <lastmod>2020-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://wikeduk.com/assets/p1.mp3</loc>
+    <lastmod>2020-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://wikeduk.com/assets/1--guide_mes-apprentissages-en-fran%C3%A7ais_fran%C3%A7ais_6ap.pdf</loc>

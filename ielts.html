@@ -6,49 +6,38 @@
   <meta name="generator" content="2018.0.0.379"/>
   
   <script type="text/javascript">
-   // Redirect to phone/tablet as necessary
-(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
-0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
-0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/index.html");
-
-// Update the 'nojs'/'js' class on the html node
+   // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "require.js", "ielts.css"], "outOfDate":[]};
 </script>
   
-  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://wikeduk.com/phone/index.html"/>
-  <title>Home</title>
+  <title>ielts</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4022494155"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=329693250"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=416396294" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/ielts.css?crc=275508247" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/ubuntu:i7:default.js" type="text/javascript"></script>
+  <script src="https://webfonts.creativecloud.com/ubuntu:n7:default.js" type="text/javascript"></script>
    </head>
  <body>
 
   <div class="clearfix" id="page"><!-- column -->
-   <a class="nonblock nontext MuseLinkActive museBGSize colelem" id="u198" href="index.html"><!-- simple frame --></a>
+   <a class="nonblock nontext colelem" id="u198" href="index.html"><!-- simple frame --></a>
    <div class="colelem" id="u201"><!-- simple frame --></div>
-   <div class="rgba-background clearfix colelem" id="u485"><!-- group -->
-    <div class="clearfix grpelem" id="pu454"><!-- column -->
-     <div class="museBGSize colelem" id="u454"><!-- simple frame --></div>
-     <a class="nonblock nontext clearfix colelem" id="u504-4" href="english_grammar.html"><!-- content --><p><span id="u504">English grammar</span></p></a>
-     <div class="museBGSize colelem" id="u482"><!-- simple frame --></div>
-     <div class="clearfix colelem" id="u507-4"><!-- content -->
-      <p><span id="u507">Audio books</span></p>
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="pu465"><!-- column -->
-     <a class="nonblock nontext museBGSize colelem" id="u465" href="ielts.html"><!-- simple frame --></a>
-     <a class="nonblock nontext clearfix colelem" id="u416-4" href="ielts.html"><!-- content --><p><span id="u416">ILETS courses</span></p></a>
-    </div>
+   <div class="clearfix colelem" id="u626-4"><!-- content -->
+    <p>IELTS</p>
+   </div>
+   <div class="clearfix colelem" id="u623-4"><!-- content -->
+    <p>IELTS (International English Language Testing System) is the world's most popular English language test for higher education and global migration.</p>
+   </div>
+   <div class="clearfix colelem" id="u629"><!-- group -->
+    <a class="nonblock nontext clearfix grpelem" id="u632-4" href="history-of-a-queen.html"><!-- content --><p><span id="u632">Read Text &quot; History of a Queen &quot;</span></p></a>
    </div>
    <div class="colelem" id="u265"><!-- custom html -->
     wikeduk &copy; all rights reserved - 2020
@@ -65,7 +54,7 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
