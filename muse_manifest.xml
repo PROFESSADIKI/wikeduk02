@@ -1,7 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581604866097">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wikeduk.com" resolutions="1x" timestamp="1581605753075">
+  <folder name="assets">
+    <file name="1--guide_mes-apprentissages-en-français_français_6ap.pdf" crc="423287194" seo="true" mt="1576144363000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4188590979" ref="index"/>
+    <file name="index.css" crc="3922794110" ref="index"/>
     <file name="master_a-master.css" crc="329693250" ref="articles_part1:index"/>
     <file name="articles_part1.css" crc="3957488123" ref="articles_part1"/>
   </folder>
@@ -18,7 +21,7 @@
     <file name="get online free courses.jpg" crc="180943920" ref="index:phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="practical english grammar1.jpg" crc="200956445" ref="phone>index">
+    <file name="practical english grammar1.jpg" crc="200956445" ref="phone>index:index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="practical english grammar.jpg" crc="300306860" ref="index">
@@ -34,6 +37,6 @@
     <file name="index.html" crc="213026664" seo="true" mt="1581604865201" redirect="true"/>
     <file name="articles_part1.html" crc="3814163815" seo="true" mt="1581604810693" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3768064291" seo="true" mt="1581604865199" redirect="true"/>
+  <file name="index.html" crc="4001461891" seo="true" mt="1581605723819" redirect="true"/>
   <file name="articles_part1.html" crc="3832582495" seo="true" mt="1581604262560" redirect="true"/>
 </manifest>
